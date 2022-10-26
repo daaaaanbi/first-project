@@ -1,0 +1,25 @@
+/*https://d2.naver.com/helloworld/4969726*/
+
+@font-face {
+    font-family:'OTTOGISans_Light';
+    src:url('../font/OTTOGISans_Light.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: fallback;
+}
+
+@font-face {
+    font-family:'OTTOGISans_Medium';
+    src: url('../font/OTTOGISans_Medium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: fallback;
+}
+
+
+
+/* 
+font-display: fallback;
+font face에 매우 작은 차단 기간과 짧은 교체 기간을 부여
+*/
+

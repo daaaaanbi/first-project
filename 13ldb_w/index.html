@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>더벤티</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/font.css">
+    <link rel="stylesheet" href="css/swiper-bundle.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/xeicon.css">
+    <link rel="shortcut icon" href="img/common/favicon-96x96.png">
+    <script src="js/jquery-2.2.4.js"></script>
+    <script src="js/jquery.easing.1.3.js"></script>
+    <script src="js/swiper-bundle.js"></script>
+    <script src="js/header.js"></script>
+    <script src="js/header_mobile.js"></script>
+    <script src="js/scroll.js"></script>
+    <script src="js/pop.js"></script>
+</head>
+<body>
+    <div id="overlay" class="Wrap blur-in">
+        <header class="clearFix" id="header">
+            <h1 class="logo"><a href="http://eksql385.dothome.co.kr/13ldb_w/"><img src="img/common/logo_white.png" alt="헤더로고이미지"></a></h1>
+            <nav>
+                <ul id="gnb" class="clearFix">
+                    <li class="depth1">
+                        <a href="#">더벤티</a>
+                        <ul class="depth2">
+                            <li><a href="#">더벤티 소개</a></li>
+                            <li><a href="#">더벤티 연혁</a></li>
+                            <li><a href="#">BI 소개</a></li>
+                            <li><a href="#">찾아오시는 길</a></li>
+                        </ul>
+                    </li>
+                    <li class="depth1">
+                        <a href="http://eksql385.dothome.co.kr/13ldb_w/menu.html">메뉴</a>
+                        <ul class="depth2">
+                            <li><a href="#">더벤티 커피이야기</a></li>
+                            <li><a href="#">신메뉴</a></li>
+                            <li><a href="#">전체메뉴</a></li>
+                        </ul>
+                    </li>
+                    <li class="depth1">
+                        <a href="http://eksql385.dothome.co.kr/13ldb_w/store.html">매장</a>
+                        <ul class="depth2">
+                            <li><a href="#">매장찾기</a></li>
+                        </ul>
+                    </li>
+                    <li class="depth1">
+                        <a href="#">가맹안내</a>
+                        <ul class="depth2">
+                            <li><a href="#">가맹안내</a></li>
+                            <li><a href="#">아카데미</a></li>
+                            <li><a href="#">인테리어</a></li>
+                            <li><a href="#">가맹상담</a></li>
+                            <li><a href="#">창업설명회</a></li>
+                            <li><a href="#">추천점포</a></li>
+                        </ul>
+                    </li>
+                    <li class="depth1">
+                        <a href="#">더벤티소식</a>
+                        <ul class="depth2">
+                            <li><a href="#">공지사항</a></li>
+                            <li><a href="#">더벤티이야기</a></li>
+                            <li><a href="#">이벤트</a></li>
+                            <li><a href="#">칭찬매장</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <div class="twoDbg"></div>
+    
+    
+        <!-- gnb 모바일 영역-->
+        <div class="m_gnb_right">
+            <a href="#" id="mobileMenu"><img src="img/common/h_menu.png" alt="모바일전체메뉴"></a>
+        </div><!-- m_gnb_right -->
+        <div class="dimBg"></div>
+        <div id="gnbM">
+            <ul class="gnb-mobile">
+                <li class="depth1M">
+                    <a href="#">더벤티</a>
+                    <ul class="depth2M">
+                        <li><a href="#">더벤티 소개</a></li>
+                        <li><a href="#">더벤티 연혁</a></li>
+                        <li><a href="#">BI 소개</a></li>
+                        <li><a href="#">찾아오시는 길</a></li>
+                    </ul>
+                </li>
+                <li class="depth1M">
+                    <a href="#">메뉴</a>
+                    <ul class="depth2M">
+                        <li><a href="#">더벤티 커피이야기</a></li>
+                        <li><a href="#">신메뉴</a></li>
+                        <li><a href="http://eksql385.dothome.co.kr/13ldb_w/menu.html">전체메뉴</a></li>
+                    </ul>
+                </li>
+                <li class="depth1M">
+                    <a href="#">매장</a>
+                    <ul class="depth2M">
+                        <li><a href="#">매장찾기</a></li>
+                    </ul>
+                </li>
+                <li class="depth1M">
+                    <a href="#">가맹안내</a>
+                    <ul class="depth2M">
+                        <li><a href="#">가맹안내</a></li>
+                        <li><a href="#">아카데미</a></li>
+                        <li><a href="#">인테리어</a></li>
+                        <li><a href="#">가맹상담</a></li>
+                        <li><a href="#">창업설명회</a></li>
+                        <li><a href="#">추천점포</a></li>
+                    </ul>
+                </li>
+                <li class="depth1M">
+                    <a href="#">더벤티소식</a>
+                    <ul class="depth2M">
+                        <li><a href="#">공지사항</a></li>
+                        <li><a href="#">더벤티이야기</a></li>
+                        <li><a href="#">이벤트</a></li>
+                        <li><a href="#">칭찬매장</a></li>
+                    </ul>
+                </li>
+            </ul>
+            <div class="sns-mobile">
+                <a href="#"><img src="img/common/sns_점주님공간.png" alt=""></a>
+                <a href="#"><img src="img/common/sns_fb.png" alt=""></a>
+                <a href="#"><img src="img/common/sns_blog.png" alt=""></a>
+            </div>
+            <a href="#" class="mobileMenuXbt">
+                <img src="img/common/menuCloseBtn.gif" alt="닫기버튼">
+            </a>
+        </div>
+    
+    
+        <!-- 메인비주얼 swiper slide  -->
+        <div class="mainVisual">
+            <div class="visual-wrap">
+                <div class="swiper">
+                    <div class="swiper-wrapper">
+                        <!-- Slides -->
+                        <div class="swiper-slide Slide1">
+                            <span><img src="img/main/visualbg01.png" alt="비주얼이미지1" class="bgImg1"></span>
+                            <span><img src="img/main/visual01.png" alt="비주얼이미지1" class="vImg1"></span>
+                            <span><img src="img/main/product01.png" alt="제품이미지1" class="pImg1"></span>
+                            <span><img src="img/main/typo1.png" alt="타이포이미지1" class="tImg1"></span>
+                        </div>
+                        <div class="swiper-slide Slide2">
+                            <span><img src="img/main/visual02.png" alt="비주얼이미지2" class="vImg2"></span>
+                            <span><img src="img/main/product02.png" alt="제품이미지2" class="pImg2"></span>
+                            <span><img src="img/main/typo2.png" alt="타이포이미지2" class="tImg2"></span>
+                        </div>
+                        <div class="swiper-slide Slide3">
+                            <span><img src="img/main/product03_all.png" alt="제품이미지3" class="pImg3"></span>
+                        </div>
+                    </div>
+                    <!-- If we need pagination -->
+                    <div class="swiper-pagination"></div>
+                </div>
+            </div>
+        </div>
+    
+    
+        <div class="content">
+            <section class="sec1">
+                <img src="img/content/sec1_txtbg.png" alt="더벤티txt배경" class="txtBg_sec1">
+                <h2>MENU</h2>
+                <div class="menu1">
+                    <a href="#">
+                        <img src="img/content/sec1_menu01.png" alt="커피">
+                    </a>
+                    <div class="txt_wrap">
+                        <h3>COFFEE</h3>
+                        <p>취향에맞는 원두선택으로<br>더 다양하게 만나보세요</p>
+                    </div>
+                </div>
+                <div class="menu2">
+                    <a href="#"><img src="img/content/sec1_menu02.png" alt="베버리지"></a>
+                    <div class="txt_wrap">
+                        <h3>BEVERAGE</h3>
+                        <p>행복을 선사하는 음료를<br> 더 다양하게 만나보세요</p>
+                    </div>
+                </div>
+                <div class="menu3">
+                    <a href="#"><img src="img/content/sec1_menu03.png" alt="디저트"></a>
+                    <div class="txt_wrap">
+                        <h3>DESSERT</h3>
+                        <p> 달콤한 더벤티의 디저트까지 <br> 다양하게 즐기세요</p>
+                    </div>
+                </div>
+            </section>
+    
+            <section class="sec2 clearFix">
+                <article class="cardL clearFix">
+                    <img src="img/content/sec2_card1.png" alt="왼쪽카드이미지">
+                    <div class="txtWrap">
+                        <h3>맛있는 더벤티 커피의 <br> 세 가지원칙 </h3>
+                        <p>국내 프랜차이즈커피 최초 두 가지 원두를 사용하여 더욱 맛있는<br>한 잔을 제공하기 위해 노력합니다.</p>
+                        <a href="#"><img src="img/content/sec2_moreBtn.png" alt="더보기버튼"></a>
+                    </div>
+                </article>
+                <img src="img/content/circleBg1.png" alt="배경원형1" width="650" class="circleBg1">
+                <article class="cardR clearFix">
+                    <img src="img/content/sec2_card2.png" alt="오른쪽카드이미지">
+                    <div class="txtWrap">
+                        <h3>더 다양하게, 더 즐겁게, 더<br>맛있게</h3>
+                        <p>오직 더벤티에서만 맛볼 수 있는 “THEVENTI Flavor”로<br>더욱 경쟁력 있는 상품만을 선보입니다 </p>
+                        <a href="#"><img src="img/content/sec2_moreBtn.png" alt="더보기버튼"></a>
+                    </div>
+                </article>
+                <img src="img/content/circleBg1.png" alt="배경원형1" width="650" class="circleBg2">
+            </section>
+    
+            <section class="sec3">
+                <img src="img/content/circleBg1.png" alt="배경원형1" class="circleBg3">
+                <div class="inner-box">
+                    <h3>완전히 새로워진 더벤티 APP </h3>
+                    <p>더 쉽고 더 편해진 더벤티 앱을 만나보세요! </p>
+                    <div class="btnWrap">
+                        <a href="#"><img src="img/content/sec3_appBtn01.png" alt="안드로이드스토어" class="androidBtn"></a>
+                        <a href="#"><img src="img/content/sec3_appBtn02.png" alt="애플스토어" class="appleBtn"></a>
+                    </div>
+                </div>
+
+            </section>
+    
+            <section class="sec4">
+                <h3>모두가 만족하는상생철학을 경영이념으로 삼고 있는 <br> 우리는 “더벤티”입니다 </h3>
+                <ul class="ic_wrap clearFix">
+                    <li class="ic1">
+                        <a href="#">
+                            <img src="img/content/sec4_ic1.png" alt="아이콘이미지1">
+                            <span>가맹안내</span>
+                        </a>
+                    </li>
+                    <li class="ic2">
+                        <a href="#">
+                            <img src="img/content/sec4_ic2.png" alt="아이콘이미지2">
+                            <span>가맹상담</span>
+                        </a>
+                    </li>
+                    <li class="ic3">
+                        <a href="#">
+                            <img src="img/content/sec4_ic3.png" alt="아이콘이미지3">
+                            <span>창업설명회</span>
+                        </a>
+                    </li>
+                    <li class="ic4">
+                        <a href="#">
+                            <img src="img/content/sec4_ic4.png" alt="아이콘이미지4">
+                            <span>오시는길</span>
+                        </a>
+                    </li>
+                </ul><!-- ic_wrap -->
+                <div class="hoverWrap">
+                    <img src="img/content/sec4_factory.png" class="facBg" alt="더벤티아카데미">
+                    <span class="hover-img"></span>
+                </div>
+            </section>
+        </div><!-- content -->
+    
+        <div class="qMenu clearFix">
+            <span>창업문의 1588-1234</span>
+            <form action="">
+                <input type="text" placeholder="이름" class="text">
+                <input type="tel" placeholder="전화번호" class="tel">
+                <input type="image" src="img/common/a_qbtn.png" alt="Submit" placeholder="신청하기" class="submit">
+            </form>
+        </div>
+        <!-- 모바일퀵메뉴 -->
+        <div id="qMenu-mobile">
+            <a href="#">
+                <img src="img/common/퀵메뉴.png" alt="퀵메뉴버튼" width="80">
+            </a>
+        </div>
+    
+        <footer>
+            <div class="footer-wrap-left">
+                <ul class="f_gnb clearFix">
+                    <li><a href="#">회사소개</a></li>
+                    <li><a href="#">가맹절차</a></li>
+                    <li><a href="#">사이트이용약관</a></li>
+                    <li><a href="#">개인정보 처리방침</a></li>
+                    <li><a href="#">고객상담</a></li>
+                    <li><a href="#">사이트맵</a></li>
+                </ul>
+                <address>
+                    더벤티코리아 부산 부산광역시 해운대구 센텀서로 30, 2507호 (KNN타워)
+                    <br>
+                    더벤티코리아 서울 서울특별시 구로구 디지털로33길 27 408~414호
+                </address>
+                <p>(주)에스앤씨세인 사업자번호 : 534-88-00122 대표이사 : 박수암 강삼남 최준경</p>
+                <span>Copyright by THEVENTI. ALL right Reserved.</span>
+            </div>
+    
+            <div class="footer-wrap-right">
+                <h1 class="f_logo"><a href="#"><img src="img/common/logo_purple.png" alt="푸터로고이미지" width="220"></a></h1>
+                <div class="f_sns">
+                    <a href="#"><img src="img/common/sns_점주님공간.png" alt=""></a>
+                    <a href="#"><img src="img/common/sns_fb.png" alt=""></a>
+                    <a href="#"><img src="img/common/sns_blog.png" alt=""></a>
+                </div>
+            </div>
+        </footer>
+    
+        <!-- scroll_topBtn -->
+        <aside>
+            <a href="#" id="topBtn">
+                <i class="xi-arrow-top" width="30"></i>
+            </a>
+        </aside>
+    
+    
+    
+    
+    </div>
+    
+    <!-- 팝업창 -->
+    <div class="pop-up">
+        <div class="boxWrap">
+            <a href="#" class="close">✖️</a>
+            <h3 class="tit">NOTICE</h3>
+            <p class="txt">
+                본 사이트는 <strong>"반응형 웹 사이트"</strong> 로 제작 되었습니다.
+                <br>화면의 크기를 줄여보세요😚
+                <a href="#" class="button">Learn more</a>
+            </p>
+        </div>
+    </div>
+
+<!-- swiper js -->
+<script>
+    var swiper = new Swiper(".swiper", {
+      effect: "flip",
+      grabCursor: true,
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+      slidesPerView: 1,
+        // autoplay: {
+        //     delay: 3000,
+        // },
+    });
+  </script>
+
+  <script>
+    $(function(){
+
+        $('.submit').on('click',function(){
+
+            alert('신청이 완료되었습니다.');
+
+        });
+
+    });
+  </script>
+</body>
+</html>

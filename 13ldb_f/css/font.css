@@ -1,0 +1,54 @@
+
+
+
+@font-face {
+    font-family:'Lorean';
+    src: url('../font/Lorean.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: fallback;
+}
+
+@font-face {
+    font-family:'SpoqaHanSansNeo-Bold';
+    src: url('../font/SpoqaHanSansNeo-Bold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: fallback;
+}
+
+@font-face {
+    font-family:'SpoqaHanSansNeo-Medium';
+    src: url('../font/SpoqaHanSansNeo-Medium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: fallback;
+}
+
+@font-face {
+    font-family:'SpoqaHanSansNeo-Regular';
+    src: url('../font/SpoqaHanSansNeo-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: fallback;
+}
+
+@font-face {
+    font-family:'SpoqaHanSansNeo-Light';
+    src: url('../font/SpoqaHanSansNeo-Light.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: fallback;
+}
+
+@font-face {
+    font-family:'SpoqaHanSansNeo-Thin';
+    src: url('../font/SpoqaHanSansNeo-Thin.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: fallback;
+}
+
+
+
+

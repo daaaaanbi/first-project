@@ -1,0 +1,808 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>오키친</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/swiper-bundle.css">
+    <link rel="stylesheet" href="css/font.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="images/common/favicon-32x32.png">
+    <script src="js/jquery-2.2.4.min.js"></script>
+    <script src="js/swiper-bundle.js"></script>
+    <script src="js/gnb.js"></script>
+</head>
+<body>
+
+    <div class="headerWrap">
+        <header>
+            <h1 class="logo"><a href="http://eksql385.dothome.co.kr/13ldb_c1/"><img src="images/common/logo.png" alt="로고"></a></h1>
+            <div class="sch_area">
+                <div class="sch_top">
+                    <form name="topfrom" id="topfrm" action="">
+                        <input type="text" id="s_value" placeholder="오뚜기 제품, 요리명 등 다양하게 검색해보세요!(예: 카레)" title="검색어를 입력해주세요.">
+                        <label for="s_value"><a href="#"><img src="images/common/top_sch.png" alt="검색버튼"></a></label>
+                    </form>
+                </div>
+                <div class="tag_top">
+                    <a href="#">#라면맛집</a>
+                    <a href="#">#xo만두</a>
+                </div>
+            </div>
+        </header>
+    </div>
+    <nav id="gnb">
+        <ul class="nav_L clearFix">
+            <li class="dropdown">
+                <a href="#">
+                    <i></i>
+                    카테고리
+                    <span class="dropdown-toggle"></span>
+                </a>
+                <ul class="dropdown-menu clearFix">
+                    <li class="col01">
+                        <ul>
+                            <li><a href="#">종류</a></li>
+                            <li><a href="#">재료</a></li>
+                            <li><a href="#">빙법</a></li>
+                            <li><a href="#">테마</a></li>
+                            <li><a href="#">기념일</a></li>
+                            <li><a href="#">도구</a></li>
+                        </ul>
+                    </li>
+                    <li class="col02">
+                        <ul>
+                            <li><a href="#">#카레</a></li>
+                            <li><a href="#">#마요네스</a></li>
+                            <li><a href="#">#분식</a></li>
+                            <li><a href="#">#브런치</a></li>
+                            <li><a href="#">#집밥</a></li>
+                            <li><a href="#">#치즈듬뿍</a></li>
+                            <li><a href="#">#캠핑</a></li>
+                            <li><a href="#">#간단꿀조합</a></li>
+                        </ul>
+                    </li>
+                    <li class="row">
+                        <a href="#">
+                            <i></i>
+                            카테고리 전체보기
+                        </a>
+                    </li>
+                </ul>
+            </li>
+            <li><a href="#">인기레시피</a></li>
+            <li><a href="#">신규레시피</a></li>
+            <li id="c_red"><a href="#">계랑 팁</a></li>
+        </ul>
+        <ul class="nav_R clearFix">
+            <li><a href="#" class="r01">오뚜기몰</a></li>
+            <li><a href="#" class="r02">최근 본 레시피</a></li>
+        </ul>
+    </nav>
+    
+    <!-- mainvisual / swiper -->
+    <div class="swiper">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide pic1">
+                <div class="visualWrap">
+                    <div class="visual_txt">
+                        <h3>
+                            <strong>빠르고 간편하게</strong>하지만 맛은 최고!
+                        </h3>
+                        <h1>
+                            10분 내로~ <br> 스피드 레시피
+                        </h1>
+                        <div class="tag">
+                            <span>#XO만두</span>
+                            <span>#떡만둣국</span>
+                            <span>#뜨근한국물</span>
+                        </div>
+                        <button class="visual_btn">
+                            스피드 테마 보기
+                            <i></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide pic2">
+                <div class="visualWrap">
+                    <div class="visual_txt">
+                        <h3>
+                            <strong>빠르고 간편하게</strong>하지만 맛은 최고!
+                        </h3>
+                        <h1>
+                            10분 내로~ <br> 스피드 레시피
+                        </h1>
+                        <div class="tag">
+                            <span>#XO만두</span>
+                            <span>#떡만둣국</span>
+                            <span>#뜨근한국물</span>
+                        </div>
+                        <button class="visual_btn">
+                            스피드 테마 보기
+                            <i></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide pic3">
+                <div class="visualWrap">
+                    <div class="visual_txt">
+                        <h3>
+                            <strong>빠르고 간편하게</strong>하지만 맛은 최고!
+                        </h3>
+                        <h1>
+                            10분 내로~ <br> 스피드 레시피
+                        </h1>
+                        <div class="tag">
+                            <span>#XO만두</span>
+                            <span>#떡만둣국</span>
+                            <span>#뜨근한국물</span>
+                        </div>
+                        <button class="visual_btn">
+                            스피드 테마 보기
+                            <i></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide pic4">
+                <div class="visualWrap">
+                    <div class="visual_txt">
+                        <h3>
+                            <strong>빠르고 간편하게</strong>하지만 맛은 최고!
+                        </h3>
+                        <h1>
+                            10분 내로~ <br> 스피드 레시피
+                        </h1>
+                        <div class="tag">
+                            <span>#XO만두</span>
+                            <span>#떡만둣국</span>
+                            <span>#뜨근한국물</span>
+                        </div>
+                        <button class="visual_btn">
+                            스피드 테마 보기
+                            <i></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide pic5">
+                <div class="visualWrap">
+                    <div class="visual_txt">
+                        <h3>
+                            <strong>빠르고 간편하게</strong>하지만 맛은 최고!
+                        </h3>
+                        <h1>
+                            10분 내로~ <br> 스피드 레시피
+                        </h1>
+                        <div class="tag">
+                            <span>#XO만두</span>
+                            <span>#떡만둣국</span>
+                            <span>#뜨근한국물</span>
+                        </div>
+                        <button class="visual_btn">
+                            스피드 테마 보기
+                            <i></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>  
+
+        <div class="btnWrap">
+            <button class="swiper-stop">정지</button>
+            <div class="swiper-pagination"><span class="swiper-pagination-current">5</span> / <span class="swiper-pagination-total">5</span></div>
+            <button class="swiper-start">시작</button>
+        </div>
+    </div>
+
+    <div class="contents">
+        <section class="content sec1">
+            <div class="con1 clearFix">
+                <div class="txt_wrap">
+                    <h2>이건 어때요? <br> 인기 검색어</h2>
+                    <p>고민을 덜어주는 추천 검색어</p>
+                    <ul class="tag_con1">
+                        <li><a href="#">#카레</a></li>
+                        <li><a href="#">#마요네즈</a></li>
+                        <li><a href="#">#분식</a></li>
+                        <li><a href="#">#브런치</a></li>
+                        <li><a href="#">#집밥</a></li>
+                        <li><a href="#">#치즈듬뿍</a></li>
+                        <li><a href="#">#캠핑</a></li>
+                        <li><a href="#">#간단 꿀조합</a></li>
+                    </ul>
+                </div>
+                <article class="cardUi01">
+                    <h3>kid's Cooking</h3>
+                    <h2>키즈셰프 레시피</h2>
+                    <!-- swiper -->
+                    <div class="swiper conSwiper swiper-initialized swiper-horizontal swiper-pointer-events swiper-backface-hidden">
+                        <div class="swiper-wrapper" id="swiper-wrapper-6b2a10220bd541101" aria-live="polite">
+                          <div class="swiper-slide swiper-slide-active" role="group" aria-label="1 / 9" style="width: 1934px;">
+                            <img src="images/main/@class_img1.png" alt="">
+                            <div class="txt">
+								<h3>옥수수푸딩</h3>
+								<p>#옥수수푸딩 #콘스프</p>
+							</div>
+                        </div>
+                          <div class="swiper-slide swiper-slide-next" role="group" aria-label="2 / 9" style="width: 1934px;">
+                            <img src="images/main/@class_img2.png" alt="">
+                            <div class="txt">
+								<h3>옥수수푸딩</h3>
+								<p>#옥수수푸딩 #콘스프</p>
+							</div>
+                        </div>
+                          <div class="swiper-slide" role="group" aria-label="3 / 9" style="width: 1934px;">
+                            <img src="images/main/@class_img3.png" alt="">
+                            <div class="txt">
+								<h3>옥수수푸딩</h3>
+								<p>#옥수수푸딩 #콘스프</p>
+							</div>
+                        </div>
+                        </div>
+                        <div class="swiper-button-next" tabindex="0" role="button" aria-label="Next slide" aria-controls="swiper-wrapper-6b2a10220bd541101" aria-disabled="false"></div>
+                        <div class="swiper-button-prev swiper-button-disabled" tabindex="-1" role="button" aria-label="Previous slide" aria-controls="swiper-wrapper-6b2a10220bd541101" aria-disabled="true"></div>
+                        <div class="swiper-pagination swiper-pagination-fraction swiper-pagination-horizontal">
+                            <span class="swiper-pagination-current">1</span>
+                             / 
+                            <span class="swiper-pagination-total">9</span>
+                        </div>
+                      <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span></div>
+
+                </article>
+                <article class="cardUi02">
+                    <h3>History</h3>
+                    <h2>최근 본 레시피</h2>
+                    <p>최근에 본 레시피를 <br>
+                        다시 찾아 볼 수 있습니다.</p>
+                        <div class="thmb">
+                            <a href="#">
+                                <span class="img2">
+                                    <div class="scale2">
+                                        <img src="images/main/2020-08-22_221683[2].jpg" alt="">
+                                    </div>
+                                </span>
+                            </a>
+                        </div>
+
+                    <div class="info">
+                        <div class="tag_info">
+                            <span>#XO만두</span>
+                            <span>#XO만두</span>
+                            <span>#XO만두</span>
+                        </div>
+                        <div class="tit_info">
+                            <a href="#">떡만둣국</a>
+                        </div>
+                    </div>
+                    <button class="more_btn">더보기</button>
+                </article>
+                <div class="cardUi03">
+                    <div class="txt">
+                        <h2>
+                            오뚜기의<br>
+                            쉽고 간단한<strong> <br>
+                            계량 꿀팁!</strong><br>
+                        </h2>
+                        <p>
+                            밥숟가락, 종이컵으로 <br>
+                            간단하고 쉽게 알려드립니다. 
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="container sec2">
+            <div class="txt_sec2">
+               <h3>요리를 더 쉽게</h3>
+               <p>오뚜기몰의 각종 소스들로 모든 레시피를 보다</p>
+                <h2>쉽게, 빠르게, 맛있게</h2>
+                <button>오뚜기몰 가기</button>
+            </div>
+        </section>
+        <section class="content sec3">
+            <h2>추천레시피</h2>
+            <p>오뚜기가 제안하는 레시피로 최고의 순간을 만들어 보세요.</p>
+            <div class="itemLIst clearFix">
+                <div class="item big">
+                    <div class="thum">
+                        <a href="#">
+                            <img src="images/main/sec3-01-big.jpg" alt="">
+                        </a>
+                    </div>
+                    <div class="info">
+                        <div class="tag_item">
+                            <span>#한라봉소르베</span>
+                            <span>#홈디저트</span>
+                            <span>#파티메뉴</span>
+                        </div>
+                        <div class="tit_item">
+                            <a href="#">한라봉소르베</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="thum">
+                        <a href="#">
+                            <img src="images/main/sec3-02.jpg" alt="">
+                        </a>
+                    </div>
+                    <div class="info">
+                        <div class="tag_item">
+                            <span>#한라봉소르베</span>
+                            <span>#홈디저트</span>
+                            <span>#파티메뉴</span>
+                        </div>
+                        <div class="tit_item">
+                            <a href="#">한라봉소르베</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="thum">
+                        <a href="#">
+                            <img src="images/main/sec3-03.jpg" alt="">
+                        </a>
+                    </div>
+                    <div class="info">
+                        <div class="tag_item">
+                            <span>#한라봉소르베</span>
+                            <span>#홈디저트</span>
+                            <span>#파티메뉴</span>
+                        </div>
+                        <div class="tit_item">
+                            <a href="#">한라봉소르베</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="item big R2">
+                    <div class="thum">
+                        <a href="#">
+                            <img src="images/main/sec3-04-big.jpg" alt="">
+                        </a>
+                    </div>
+                    <div class="info">
+                        <div class="tag_item">
+                            <span>#한라봉소르베</span>
+                            <span>#홈디저트</span>
+                            <span>#파티메뉴</span>
+                        </div>
+                        <div class="tit_item">
+                            <a href="#">한라봉소르베</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="itemWrap">
+                    <div class="item">
+                        <div class="thum">
+                            <a href="#">
+                                <img src="images/main/sec3-05.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="info">
+                            <div class="tag_item">
+                                <span>#한라봉소르베</span>
+                                <span>#홈디저트</span>
+                                <span>#파티메뉴</span>
+                            </div>
+                            <div class="tit_item">
+                                <a href="#">한라봉소르베</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="thum">
+                            <a href="#">
+                                <img src="images/main/sec3-06.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="info">
+                            <div class="tag_item">
+                                <span>#한라봉소르베</span>
+                                <span>#홈디저트</span>
+                                <span>#파티메뉴</span>
+                            </div>
+                            <div class="tit_item">
+                                <a href="#">한라봉소르베</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <section class="container sec4">
+            <div #swiperref="" class="mySwiper swiper-initialized swiper-horizontal swiper-pointer-events swiper-backface-hidden">
+                <h2>셰프의 팁 간편식 업그레이드</h2>
+                <p>오뚜기 간편식이 근사한 요리가 되는 팁을 공개합니다.</p>
+                <div class="swiper-wrapper" id="swiper-wrapper-cc6f48b079f3c6d0" aria-live="polite"
+                    style="transition-duration: 0ms; transform: translate3d(-544px, 0px, 0px);">
+                    <div class="swiper-slide" role="group" aria-label="1 / 4" style="width: 242px; margin-right: 30px;">
+                        <img src="images/main/sec4-01.jpg" alt="">
+                        <div class="txt">
+                            <span>#XO만두</span>
+                            <span>#굴림만두</span>
+                            <span>#캠핑</span>
+                            <a href="#">
+                                <h3>완자꼬치</h3>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="swiper-slide" role="group" aria-label="2 / 4" style="width: 242px; margin-right: 30px;">
+                        <img src="images/main/sec4-02.jpg" alt="">
+                        <div class="txt">
+                            <span>#XO만두</span>
+                            <span>#굴림만두</span>
+                            <span>#캠핑</span>
+                            <a href="#">
+                                <h3>완자꼬치</h3>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="swiper-slide swiper-slide-prev" role="group" aria-label="3 / 4"
+                        style="width: 242px; margin-right: 30px;">
+                        <img src="images/main/sec4-03.jpg" alt="">
+                        <div class="txt">
+                            <span>#XO만두</span>
+                            <span>#굴림만두</span>
+                            <span>#캠핑</span>
+                            <a href="#">
+                                <h3>완자꼬치</h3>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="swiper-slide swiper-slide-active" role="group" aria-label="4 / 4"
+                        style="width: 242px; margin-right: 30px;">
+                        <img src="images/main/2020-08-22_221683[2].jpg" alt="">
+                        <div class="txt">
+                            <span>#XO만두</span>
+                            <span>#굴림만두</span>
+                            <span>#캠핑</span>
+                            <a href="#">
+                                <h3>완자꼬치</h3>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-button-next" tabindex="-1" role="button" aria-label="Next slide" aria-controls="swiper-wrapper-cc6f48b079f3c6d0" aria-disabled="true"></div>
+                <div class="swiper-button-prev" tabindex="0" role="button" aria-label="Previous slide" aria-controls="swiper-wrapper-cc6f48b079f3c6d0" aria-disabled="false"></div>
+
+              <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span>
+            </div>
+        </section>
+        <div class="sec4_bg">
+            <button>더보기</button>
+        </div>
+        <section class="sec5">
+            <h2>인기레시피</h2>
+            <p>오'키친에서 많은 분들이 찾아본 인기 레시피를 소개합니다.</p>
+            <div class="thum_list clearFix">
+                <div class="listWrap clearFix">
+                    <div class="item">
+                        <div class="thum">
+                            <a href="#">
+                                <div class="img">
+                                    <div class="scale">
+                                        <img src="upfile/2020-08-25_427865954[12].jpg" alt="">
+                                    </div>
+                                </div>
+                                <div class="icon">
+                                    <i class="i1">추천</i>
+                                    <i class="i2">인기</i>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="info">
+                            <div class="info_tag">
+                                <span>#덮밥요리</span>
+                                <span>#오뚜기햄</span>
+                                <span>#골드마요네스</span>
+                            </div>
+                            <div class="info_tit">
+                                <a href="#">햄마요덮밥</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="thum">
+                            <a href="#">
+                                <div class="img">
+                                    <div class="scale">
+                                        <img src="images/main/sec5-02.jpg" alt="">
+                                    </div>
+                                </div>
+                                <div class="icon">
+                                    <i class="i1">추천</i>
+                                    <i class="i2">인기</i>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="info">
+                            <div class="info_tag">
+                                <span>#덮밥요리</span>
+                                <span>#오뚜기햄</span>
+                                <span>#골드마요네스</span>
+                            </div>
+                            <div class="info_tit">
+                                <a href="#">햄마요덮밥</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="thum">
+                            <a href="#">
+                                <div class="img">
+                                    <div class="scale">
+                                        <img src="images/main/sec5-03.jpg" alt="">
+                                    </div>
+                                </div>
+                                <div class="icon">
+                                    <i class="i1">추천</i>
+                                    <i class="i2">인기</i>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="info">
+                            <div class="info_tag">
+                                <span>#덮밥요리</span>
+                                <span>#오뚜기햄</span>
+                                <span>#골드마요네스</span>
+                            </div>
+                            <div class="info_tit">
+                                <a href="#">햄마요덮밥</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="thum">
+                            <a href="#">
+                                <div class="img">
+                                    <div class="scale">
+                                        <img src="images/main/sec5-04.jpg" alt="">
+                                    </div>
+                                </div>
+                                <div class="icon">
+                                    <i class="i1">추천</i>
+                                    <i class="i2">인기</i>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="info">
+                            <div class="info_tag">
+                                <span>#덮밥요리</span>
+                                <span>#오뚜기햄</span>
+                                <span>#골드마요네스</span>
+                            </div>
+                            <div class="info_tit">
+                                <a href="#">햄마요덮밥</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="thum">
+                            <a href="#">
+                                <div class="img">
+                                    <div class="scale">
+                                        <img src="images/main/sec5-05.jpg" alt="">
+                                    </div>
+                                </div>
+                                <div class="icon">
+                                    <i class="i1">추천</i>
+                                    <i class="i2">인기</i>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="info">
+                            <div class="info_tag">
+                                <span>#덮밥요리</span>
+                                <span>#오뚜기햄</span>
+                                <span>#골드마요네스</span>
+                            </div>
+                            <div class="info_tit">
+                                <a href="#">햄마요덮밥</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="thum">
+                            <a href="#">
+                                <div class="img">
+                                    <div class="scale">
+                                        <img src="images/main/sec5-06.jpg" alt="">
+                                    </div>
+                                </div>
+                                <div class="icon">
+                                    <i class="i1">추천</i>
+                                    <i class="i2">인기</i>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="info">
+                            <div class="info_tag">
+                                <span>#덮밥요리</span>
+                                <span>#오뚜기햄</span>
+                                <span>#골드마요네스</span>
+                            </div>
+                            <div class="info_tit">
+                                <a href="#">햄마요덮밥</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="thum">
+                            <a href="#">
+                                <div class="img">
+                                    <div class="scale">
+                                        <img src="images/main/sec5-07.jpg" alt="">
+                                    </div>
+                                </div>
+                                <div class="icon">
+                                    <i class="i1">추천</i>
+                                    <i class="i2">인기</i>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="info">
+                            <div class="info_tag">
+                                <span>#덮밥요리</span>
+                                <span>#오뚜기햄</span>
+                                <span>#골드마요네스</span>
+                            </div>
+                            <div class="info_tit">
+                                <a href="#">햄마요덮밥</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="thum">
+                            <a href="#">
+                                <div class="img">
+                                    <div class="scale">
+                                        <img src="images/main/sec5-08.jpg" alt="">
+                                    </div>
+                                </div>
+                                <div class="icon">
+                                    <i class="i1">추천</i>
+                                    <i class="i2">인기</i>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="info">
+                            <div class="info_tag">
+                                <span>#덮밥요리</span>
+                                <span>#오뚜기햄</span>
+                                <span>#골드마요네스</span>
+                            </div>
+                            <div class="info_tit">
+                                <a href="#">햄마요덮밥</a>
+                            </div>
+                        </div>
+                    </div>
+                <div/>
+            </div>
+
+        </section>
+        <section class="container sec6">
+            <div class="txt_sec6">
+                <h3>향신료의 매력에 푹 빠지고 싶다면?</h3>
+                <p>허브·스파이스 전문 도서관</p>
+                 <h2>라이브러리 H</h2>
+                 <button>자세한 이용 방법 보기</button>
+             </div>
+        </section>
+    </div>
+
+    <!-- <aside class="btn_top"><img src="images/common/btn_top.png" alt=""></aside> -->
+    <div class="footerWrap">
+        <div class="footerMenu">
+            <ul class="clearFix">
+                <li><a href="#">인기 레시피</a></li>
+                <li><a href="#">셰프의 팁</a></li>
+                <li><a href="#">신규 레시피</a></li>
+            </ul>
+        </div>
+        <div class="f_info clearFix">
+            <div class="info_L">
+                <h3>(주)오뚜기</h3>
+                <address>경기도 안양시 동안구 흥안대로 405</address>
+                <span>Copyright ⓒ ottogi co.,Ltd All Rights Reserved.</span>
+            </div>
+            <div class="info_R">
+                <select name="FAMILY SITE" id="family_site">
+                    <option value="0">FAMILY SITE</option>
+                    <option value="http://www.ottogi.co.kr/">(주)오뚜기</option>
+                    <option value="http://www.ottogi.co.kr/">오뚜기몰</option>
+                    <option value="http://www.ottogi.co.kr/">오뚜기함태호재단</option>
+                </select>
+                <ul class="sns clearFix">
+                    <li><a href="#"><i id="i_blog"></i></a></li>
+                    <li><a href="#"><i id="i_fb"></i></a></li>
+                    <li><a href="#"><i id="i_ins"></i></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>    
+
+
+
+    <script>
+
+        var swiper = new Swiper(".swiper", {
+          pagination: {
+            el: ".swiper-pagination",
+            type: "fraction",
+          },
+          navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+          },
+
+          autoplay: {
+            delay: 1000,
+            },
+        });
+
+                // 제이쿼리 //
+                $('.swiper-stop').on('click', function () {
+
+                    swiper.autoplay.stop();
+
+
+                });
+
+                $('.swiper-start').on('click', function () {
+
+                    swiper.autoplay.start();
+
+
+                });
+
+
+
+    </script>
+
+    <script>
+        var swiper3 = new Swiper(".conSwiper", {
+            pagination: {
+                el: ".swiper-pagination",
+                type: "fraction",
+            },
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+        });
+    </script>
+
+    <script>
+        var swiper2 = new Swiper(".mySwiper", {
+            slidesPerView: 3,
+            centeredSlides: true,
+            spaceBetween: 100,
+            loop : true,
+
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+
+            // autoplay: {
+            //     delay: 1000,
+            // },
+        });
+
+    </script>
+
+
+
+</body>
+</html>
